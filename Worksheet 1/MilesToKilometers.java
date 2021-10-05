@@ -14,6 +14,7 @@ public class MilesToKilometers {
         double kilometers = DISTANCE_BETWEEN_CAMPUS * CONVERSION_CONSTANT;
 
         //print result
-        System.out.println("The distance between campuses is " + df.format(kilometers) + "km");
+        System.out.println("The distance between campuses is "
+         + df.format(kilometers) + "km");
     }
 }
