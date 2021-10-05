@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+/* A program to greet the user and strike up a conversation. */
 public class HelloYou {
     public static void main(String[] args) {
 
