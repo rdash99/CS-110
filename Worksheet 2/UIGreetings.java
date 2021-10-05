@@ -8,6 +8,6 @@ public class UIGreetings {
         String name = JOptionPane.showInputDialog("What is your name?");
 
         //change to an output prompt
-        JOptionPane.showMessageDialog(null, "Hello " + name, "Greetings fellow human", 0);
+        JOptionPane.showMessageDialog(null, "Hello " + name, "Greetings fellow human", JOptionPane.INFORMATION_MESSAGE);
     }
 }
