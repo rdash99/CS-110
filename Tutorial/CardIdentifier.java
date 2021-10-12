@@ -10,7 +10,8 @@ public class CardIdentifier {
 
         int i = 0;
         while (i<=9){
-            EXPECTED_FIRST_CHAR.add(i);
+            String number = i.toString();
+            EXPECTED_FIRST_CHAR.add(number); //TODO Convert to string
             i +=1;
         }
         EXPECTED_FIRST_CHAR.add("J");
@@ -69,7 +70,7 @@ public class CardIdentifier {
             }
         }
         if (char1.equals("0")){
-            System.out.println("Yay");
+            System.out.println("Yay"); //TODO Work out meaning of card code
         }
     }
 }
