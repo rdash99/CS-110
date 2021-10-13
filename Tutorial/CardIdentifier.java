@@ -10,8 +10,8 @@ public class CardIdentifier {
 
         int i = 0;
         while (i<=9){
-            String number = i.toString();
-            EXPECTED_FIRST_CHAR.add(number); //TODO Convert to string
+            String number = String.valueOf(i);
+            EXPECTED_FIRST_CHAR.add(number);
             i +=1;
         }
         EXPECTED_FIRST_CHAR.add("J");
