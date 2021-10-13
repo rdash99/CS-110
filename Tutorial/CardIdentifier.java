@@ -44,7 +44,7 @@ public class CardIdentifier {
         // Validation for card identifier code length and characters
         while (code.length()!=2 || EXPECTED_FIRST_CHAR.contains(char1) == false|| EXPECTED_LAST_CHAR.contains(char2) == false){
             
-            System.out.println(EXPECTED_FIRST_CHAR.contains(char1));
+            //System.out.println(EXPECTED_FIRST_CHAR.contains(char1));
 
             if (code.length()!=2){
                 System.err.println("Invalid card identifier code, the code should be two characters - please try again:");
