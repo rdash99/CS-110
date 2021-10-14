@@ -102,7 +102,6 @@ public class CardIdentifier {
         }else{
             firstString = "the Ace of ";
         }
-        //System.out.println(firstString);
 
         //Check what the second character is
         if (char2.equals("H")){
@@ -114,7 +113,6 @@ public class CardIdentifier {
         }else if (char2.equals("S")){
             secondWord = "Spades.";
         }
-        //System.out.println(secondWord);
 
         System.out.println("Your card is " + firstString + secondWord);
     }
