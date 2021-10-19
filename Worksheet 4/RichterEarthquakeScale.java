@@ -40,7 +40,7 @@ public class RichterEarthquakeScale {
             System.out.println("Major damage to buildings, structures likely to be destroyed."
                     + " Will cause moderate to heavy damage to sturdy or earthquake-resistant buildings."
                     + " Damaging in large areas. Felt in extremely large regions.");
-        } else if (input >= 9.0) {
+        } else {
             System.out.println("At or near total destruction – severe damage or collapse to all buildings."
                     + " Heavy damage and shaking extends to distant locations."
                     + " Permanent changes in ground topography.");
