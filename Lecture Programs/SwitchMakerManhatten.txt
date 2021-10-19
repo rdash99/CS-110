@@ -1,0 +1,50 @@
+case Broadway	1–754	(few numbered streets south of 8th)
+case 5th Avenue	775–1286	{\displaystyle \div 10}{\displaystyle \div 10}	{\displaystyle -18}{\displaystyle -18}	59.6–110.6
+case Central Park West	All	{\displaystyle \div 10}{\displaystyle \div 10}	{\displaystyle +60}{\displaystyle +60}	
+case Riverside Drive	1–567	{\displaystyle \div 10}{\displaystyle \div 10}	{\displaystyle +72}{\displaystyle +72}	72.1–128.7
+case Riverside Drive	Above 567	{\displaystyle \div 10}{\displaystyle \div 10}	{\displaystyle +78}{\displaystyle +78}	134.7+
+case Avenue A	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +3}{\displaystyle +3}	
+case Avenue B	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +3}{\displaystyle +3}	
+case Avenue C	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +3}{\displaystyle +3}	
+case Avenue D	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +3}{\displaystyle +3}	
+case 1st Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +3}{\displaystyle +3}	
+case 2nd Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +3}{\displaystyle +3}	
+case 3rd Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +10}{\displaystyle +10}	
+case 4th Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +8}{\displaystyle +8}	
+case 5th Avenue	63–108	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +11}{\displaystyle +11}	14.15–16.4
+case 5th Avenue	109–199	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +13}{\displaystyle +13}	18.45–23
+case 5th Avenue	200–399	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +16}{\displaystyle +16}	26.05–36
+case 5th Avenue	400–599	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +18}{\displaystyle +18}	38.05–48
+case 5th Avenue	600–774	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +20}+20	50.05–58.75
+case 5th Avenue	1287–1499	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +45}{\displaystyle +45}	110–120
+case 5th Avenue	Above 1500	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +24}{\displaystyle +24}	124+
+case 6th Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle -12}{\displaystyle -12}	
+case 7th Avenue	1–1800	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +12}{\displaystyle +12}	12.05–102
+case 7th Avenue	Above 1800	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +20}+20	110+
+case 8th Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +9}{\displaystyle +9}	
+case 9th Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +13}{\displaystyle +13}	
+case 10th Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +14}{\displaystyle +14}	
+case 11th Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +15}{\displaystyle +15}	
+case Amsterdam Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +59}{\displaystyle +59}	
+case Audubon Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +165}{\displaystyle +165}	
+case Avenue of the Americas	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle -12}{\displaystyle -12}	
+case Columbus Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +60}{\displaystyle +60}[3]	
+case Broadway	756–846	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle -29}{\displaystyle -29}	8.8–13.3
+case Broadway	847–953	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle -25}{\displaystyle -25}	17.35–22.65
+case Broadway	Above 953	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle -31}{\displaystyle -31}	16.65+
+case Convent Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +127}{\displaystyle +127}	
+case East End Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +79}{\displaystyle +79}	
+case Edgecombe Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +134}{\displaystyle +134}	
+case Ft. Washington Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +158}{\displaystyle +158}	
+case Lenox Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +110}{\displaystyle +110}	
+case Lexington Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +22}{\displaystyle +22}	
+case Madison Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +27}{\displaystyle +27}	
+case Manhattan Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +100}{\displaystyle +100}	
+case Park Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +34}{\displaystyle +34}	
+case Park Avenue South	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +8}{\displaystyle +8}	
+case Pleasant Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +101}{\displaystyle +101}	
+case St. Nicholas Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +110}{\displaystyle +110}	
+case Vanderbilt Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +42}{\displaystyle +42}	
+case Wadsworth Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +173}{\displaystyle +173}	
+case West End Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +59}{\displaystyle +59}	
+case York Avenue	All	{\displaystyle \div 20}{\displaystyle \div 20}	{\displaystyle +4}{\displaystyle +4}	
