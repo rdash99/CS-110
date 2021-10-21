@@ -54,7 +54,7 @@ public class ColourInDiagram {
         } else if (colour.equals("Y")) {
             System.out.println("The square is yellow. At row: " + y + " column: " + x);
         } else if (colour.equals("G")) {
-            System.out.println("The square is green. At row: " + y + " column:" + x);
+            System.out.println("The square is green. At row: " + y + " column: " + x);
         }
     }
 }
