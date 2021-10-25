@@ -1,3 +1,5 @@
+package Tutorial;
+
 import java.util.Scanner;
 
 public class MilimetersToInches {
@@ -9,8 +11,8 @@ public class MilimetersToInches {
         System.out.println("Enter the number of milimeters with a decimal point:");
         double toConvert = in.nextDouble();
 
-        double coverted = toConvert/MM_PER_INCH;
-        
+        double coverted = toConvert / MM_PER_INCH;
+
         System.out.println(coverted + " inches!");
     }
 }

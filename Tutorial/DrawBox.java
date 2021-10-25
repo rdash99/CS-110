@@ -1,5 +1,7 @@
+package Tutorial;
+
 public class DrawBox {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         final String ROW1 = "+-+-+";
         final String ROW2 = "| | |";
 

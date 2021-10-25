@@ -1,3 +1,5 @@
+package Tutorial;
+
 import java.util.Scanner;
 
 public class CircleCalc {
@@ -13,6 +15,6 @@ public class CircleCalc {
 
         double area = PI * (radius * radius);
         System.out.println("The area of the circle is: " + area);
-        
+
     }
 }

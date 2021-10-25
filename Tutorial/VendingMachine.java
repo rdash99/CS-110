@@ -1,12 +1,12 @@
+package Tutorial;
+
 import java.util.Scanner;
 
 /**
-   This program simulates a vending machine that gives change.
-*/
-public class VendingMachine
-{
-   public static void main(String[] args)
-   {
+ * This program simulates a vending machine that gives change.
+ */
+public class VendingMachine {
+   public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
 
       final int PENNIES_PER_DOLLAR = 100;
@@ -25,9 +25,9 @@ public class VendingMachine
       int quarters = amountDue / PENNIES_PER_QUARTER;
 
       // Print change due
-	  // Note that this uses printf instead of print or println
-	  // printf means 'print formatted' and the %6d forces the output
-	  // to have no more than 6 digits.
+      // Note that this uses printf instead of print or println
+      // printf means 'print formatted' and the %6d forces the output
+      // to have no more than 6 digits.
       System.out.printf("Dollar coins: %6d", dollarCoins);
       System.out.println();
       System.out.printf("Quarters:     %6d", quarters);

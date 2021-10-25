@@ -1,3 +1,5 @@
+package Tutorial;
+
 import java.util.Scanner;
 
 public class IsPositiveNegativeOrZero {
@@ -6,13 +8,13 @@ public class IsPositiveNegativeOrZero {
         System.out.println("Enter a whole number:");
         int number = in.nextInt();
 
-        if (number == 0){
+        if (number == 0) {
             System.out.println("The number is zero.");
         }
-        if (number < 0){
+        if (number < 0) {
             System.out.println("Number is negative.");
         }
-        if (number > 0){
+        if (number > 0) {
             System.out.println("The number is positive.");
         }
     }

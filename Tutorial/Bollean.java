@@ -1,5 +1,7 @@
+package Tutorial;
+
 public class Bollean {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         boolean a = true;
         boolean b = true;
         boolean c = false;
