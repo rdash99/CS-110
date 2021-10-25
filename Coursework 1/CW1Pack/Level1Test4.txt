@@ -1,0 +1,14 @@
+both
+1
+both
+1
+both
+1
+one
+1
+two
+1
+one
+2
+two
+4

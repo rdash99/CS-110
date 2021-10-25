@@ -1,0 +1,16 @@
+both
+lemon
+2
+one
+kiwi
+3
+orange
+two
+2
+both
+apple
+1
+grapefruit
+two
+strawberry
+3

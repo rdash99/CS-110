@@ -1,0 +1,9 @@
+Biscuits Left - Barrel 1: 6
+Biscuits Left - Barrel 2: 8
+Player Turn: 1
+Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? How many biscuits are you taking? Please input an integer: Biscuits Left - Barrel 1: 0
+Biscuits Left - Barrel 2: 2
+Player Turn: 2
+Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? How many biscuits are you taking? Please input an integer: Biscuits Left - Barrel 1: 0
+Biscuits Left - Barrel 2: 0
+Winner is player 2

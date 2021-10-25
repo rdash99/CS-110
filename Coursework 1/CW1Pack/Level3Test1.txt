@@ -1,0 +1,9 @@
+both
+-5
+both
+6
+two
+11
+two
+2
+
