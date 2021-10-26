@@ -1,18 +1,17 @@
-package Tutorial;
-
 import java.util.Scanner;
 
 public class MilimetersToInches {
-    public static void main(String[] args) {
-        final double MM_PER_INCH = 25.4;
 
-        Scanner in = new Scanner(System.in);
+  public static void main(String[] args) {
+    final double MM_PER_INCH = 25.4;
 
-        System.out.println("Enter the number of milimeters with a decimal point:");
-        double toConvert = in.nextDouble();
+    Scanner in = new Scanner(System.in);
 
-        double coverted = toConvert / MM_PER_INCH;
+    System.out.println("Enter the number of milimeters with a decimal point:");
+    double toConvert = in.nextDouble();
 
-        System.out.println(coverted + " inches!");
-    }
+    double coverted = toConvert / MM_PER_INCH;
+
+    System.out.println(coverted + " inches!");
+  }
 }
