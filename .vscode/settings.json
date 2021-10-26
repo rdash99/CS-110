@@ -1,10 +1,14 @@
 {
     "java.project.sourcePaths": [
+        "Worksheet 4",
         "Worksheet 3",
         "Worksheet 2",
         "Worksheet 1",
         "Tutorial",
         "Lecture Programs",
-        "Worksheet 4"
-    ]
+        "Worksheet 5"
+    ],
+    "java.checkstyle.configuration": "${workspaceFolder}/Coursework 1/CW1Pack/separatebrackets.xml",
+    "java.checkstyle.version": "8.18",
+    "java.format.settings.url": "eclipse-formatter.xml"
 }
