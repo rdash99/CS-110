@@ -37,9 +37,3 @@ public class PoolCosting {
     System.out.println("Estimated cost: £" + totalCost);
   }
 }
-        int totalCost = excCost + lineTileCost + MACHINERY_COST;
-
-        System.out.println("Estimated cost: £" + totalCost);
-
-    }
-}
