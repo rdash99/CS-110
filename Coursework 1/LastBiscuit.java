@@ -26,9 +26,25 @@ public class LastBiscuit {
         "Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? "
       );
       barrel = in.next();
+      barrel.toLowerCase();
+
+      // Barrel input checks
+      while (
+        !barrel.equals("one") && !barrel.equals("two") && !barrel.equals("both")
+      ) {
+        System.out.print(
+          "Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? "
+        );
+        barrel = in.next();
+        barrel.toLowerCase();
+      }
 
       // Get the number of biscuits removed
       System.out.print("How many biscuits are you taking? ");
+      while (!in.hasNextInt()) {
+        System.out.print("Please input an integer: ");
+        in.next();
+      }
       numberTaken = in.nextInt();
 
       // Remove the correct number of biscuits from the barrels
@@ -69,6 +85,10 @@ public class LastBiscuit {
       } else {
         turn = 1;
       }
+      // Reset the taken number of biscuits
+      numberTaken = 0;
+
+      barrel = "";
     }
   }
 }
