@@ -9,7 +9,7 @@
         "Lecture Programs",
         "Coursework 1"
     ],
-    "java.checkstyle.configuration": "${workspaceFolder}/Coursework 1/CW1Pack/separatebrackets.xml",
+    "java.checkstyle.configuration": "/sun_checks.xml",
     "java.checkstyle.version": "8.18",
-    "java.format.settings.url": "eclipse-formatter.xml"
+    "java.format.settings.url": "eclipse.xml"
 }
