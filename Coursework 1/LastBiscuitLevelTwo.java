@@ -85,9 +85,8 @@ Written by Rowan Dash (2106866). SpLD marking regulations apply */
       } else {
         turn = 1;
       }
-      // Reset the taken number of biscuits
+      // Reset the taken number of biscuits and the chosen barrel
       numberTaken = 0;
-
       barrel = "";
     }
   }
