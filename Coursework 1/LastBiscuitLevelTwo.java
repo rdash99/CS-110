@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class LastBiscuitLevelTwo {
 
-  /* A program to create and run the game of last biscuit.
-Written by Rowan Dash (2106866). SpLD marking regulations apply */
+  /*
+   * A program to create and run the game of last biscuit.
+   * Written by Rowan Dash (2106866). SpLD marking regulations apply
+   */
   public static void main(String[] args) {
     final int BARREL_1_INITIAL = 6;
     final int BARREL_2_INITIAL = 8;
@@ -15,26 +17,28 @@ Written by Rowan Dash (2106866). SpLD marking regulations apply */
     Scanner in = new Scanner(System.in);
 
     // Main game loop
-    while (barrel1 >= 0 && barrel2 >= 0) {
+    while (barrel1
+        >= 0
+        && barrel2
+            >= 0) {
       // Print statements
-      System.out.println("Biscuits Left - Barrel 1: " + barrel1);
-      System.out.println("Biscuits Left - Barrel 2: " + barrel2);
-      System.out.println("Player Turn: " + turn);
+      System.out.println("Biscuits Left - Barrel 1: "
+          + barrel1);
+      System.out.println("Biscuits Left - Barrel 2: "
+          + barrel2);
+      System.out.println("Player Turn: "
+          + turn);
 
       // Choose a barrel
-      System.out.print(
-        "Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? "
-      );
+      System.out.print("Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? ");
       barrel = in.next();
       barrel.toLowerCase();
 
       // Barrel input checks
-      while (
-        !barrel.equals("one") && !barrel.equals("two") && !barrel.equals("both")
-      ) {
-        System.out.print(
-          "Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? "
-        );
+      while (!barrel.equals("one")
+          && !barrel.equals("two")
+          && !barrel.equals("both")) {
+        System.out.print("Choose a barrel: barrel1 (one), barrel2 (two), or both (both), or skip turn (skip)? ");
         barrel = in.next();
         barrel.toLowerCase();
       }
@@ -58,29 +62,44 @@ Written by Rowan Dash (2106866). SpLD marking regulations apply */
       }
 
       // Check barrel contents and update the number to zero if negative
-      if (barrel1 < 0) {
+      if (barrel1
+          < 0) {
         barrel1 = 0;
-      } else if (barrel2 < 0) {
+      } else if (barrel2
+          < 0) {
         barrel2 = 0;
-      } else if (barrel1 < 0 && barrel2 < 0) {
+      } else if (barrel1
+          < 0
+          && barrel2
+              < 0) {
         barrel1 = 0;
         barrel2 = 0;
-        System.out.println("Biscuits Left - Barrel 1: " + barrel1);
-        System.out.println("Biscuits Left - Barrel 2: " + barrel2);
-        System.out.println("Winner is player " + turn);
+        System.out.println("Biscuits Left - Barrel 1: "
+            + barrel1);
+        System.out.println("Biscuits Left - Barrel 2: "
+            + barrel2);
+        System.out.println("Winner is player "
+            + turn);
         break;
       }
 
       // Win check
-      if (barrel1 == 0 && barrel2 == 0) {
-        System.out.println("Biscuits Left - Barrel 1: " + barrel1);
-        System.out.println("Biscuits Left - Barrel 2: " + barrel2);
-        System.out.println("Winner is player " + turn);
+      if (barrel1
+          == 0
+          && barrel2
+              == 0) {
+        System.out.println("Biscuits Left - Barrel 1: "
+            + barrel1);
+        System.out.println("Biscuits Left - Barrel 2: "
+            + barrel2);
+        System.out.println("Winner is player "
+            + turn);
         break;
       }
 
       // Swap active player
-      if (turn == 1) {
+      if (turn
+          == 1) {
         turn = 2;
       } else {
         turn = 1;
