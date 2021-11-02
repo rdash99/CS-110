@@ -9,6 +9,10 @@ public class NameAndAge {
         String inputString = "";
         int input = 0;
         int count = 0;
+        int smallest = 100;
+        int largest = 0;
+        int smallestIndex = 0;
+        int largestIndex = 0;
 
         Scanner in = new Scanner(System.in);
         while (!inputString.equals("done")
@@ -35,6 +39,16 @@ public class NameAndAge {
 
                 names[count] = inputString;
                 age[count] = input;
+                if (input
+                        < smallest) {
+                    smallest = input;
+                    smallestIndex = count;
+                }
+                if (input
+                        > largest) {
+                    largest = input;
+                    largestIndex = count;
+                }
 
                 count += 1;
             }
@@ -47,5 +61,13 @@ public class NameAndAge {
                     + ", age: "
                     + age[i]);
         }
+        System.out.println("The youngest person is: "
+                + names[smallestIndex]
+                + " with an age of "
+                + age[smallestIndex]);
+        System.out.println("The oldest person is: "
+                + names[largestIndex]
+                + " with an age of "
+                + age[largestIndex]);
     }
 }

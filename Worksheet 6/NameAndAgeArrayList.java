@@ -12,6 +12,10 @@ public class NameAndAgeArrayList {
         String inputString = "";
         int input = 0;
         int count = 0;
+        int smallest = 100;
+        int largest = 0;
+        int smallestIndex = 0;
+        int largestIndex = 0;
 
         Scanner in = new Scanner(System.in);
 
@@ -42,6 +46,17 @@ public class NameAndAgeArrayList {
                 names.add(inputString);
                 age.add(input);
 
+                if (input
+                        < smallest) {
+                    smallest = input;
+                    smallestIndex = count;
+                }
+                if (input
+                        > largest) {
+                    largest = input;
+                    largestIndex = count;
+                }
+
                 count += 1;
             }
 
@@ -55,5 +70,13 @@ public class NameAndAgeArrayList {
                     + ", age: "
                     + age.get(i));
         }
+        System.out.println("The youngest person is: "
+                + names.get(smallestIndex)
+                + " with an age of "
+                + age.get(smallestIndex));
+        System.out.println("The oldest person is: "
+                + names.get(largestIndex)
+                + " with an age of "
+                + age.get(largestIndex));
     }
 }
