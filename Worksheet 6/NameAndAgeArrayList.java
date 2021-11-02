@@ -5,6 +5,7 @@ public class NameAndAgeArrayList {
     public static void main(String[] args) {
         final int MAX_INPUTS = 10;
 
+        // New ArrayLists
         ArrayList<String> names = new ArrayList<String>();
         ArrayList<Integer> age = new ArrayList<Integer>();
 
@@ -13,6 +14,8 @@ public class NameAndAgeArrayList {
         int count = 0;
 
         Scanner in = new Scanner(System.in);
+
+        // Main loop
         while (!inputString.equals("done")
                 && count
                         < MAX_INPUTS) {
@@ -27,6 +30,7 @@ public class NameAndAgeArrayList {
             inputString = in.next();
             inputString.toLowerCase();
 
+            // Input checking
             if (!inputString.equals("done")) {
                 System.out.print("Please enter an age: ");
                 while (!in.hasNextInt()) {
@@ -42,6 +46,8 @@ public class NameAndAgeArrayList {
             }
 
         }
+
+        // Print out names and ages
         for (int i = 0; i
                 < count; i++) {
             System.out.println("Name: "
