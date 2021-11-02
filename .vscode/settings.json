@@ -7,7 +7,8 @@
         "Worksheet 1",
         "Tutorial",
         "Lecture Programs",
-        "Coursework 1"
+        "Coursework 1",
+        "Worksheet 6"
     ],
     "java.checkstyle.configuration": "/sun_checks.xml",
     "java.checkstyle.version": "8.18",
