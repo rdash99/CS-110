@@ -19,9 +19,9 @@ public class LastBiscuitLevelThree {
 
     // Main game loop
     while (barrel1
-        >= 0
-        && barrel2
-            >= 0) {
+        > 0
+        || barrel2
+            > 0) {
       // Print statements
       System.out.println("Biscuits Left - Barrel 1: "
           + barrel1);
@@ -117,7 +117,6 @@ public class LastBiscuitLevelThree {
             + barrel2);
         System.out.println("Winner is player "
             + turn);
-        break;
       }
 
       // Swap active player
