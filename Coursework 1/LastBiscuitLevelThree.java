@@ -3,15 +3,16 @@ import java.util.Scanner;
 public class LastBiscuitLevelThree {
 
   /*
-   * A program to create and run the game of last biscuit. Written by Rowan Dash
-   * (2106866). SpLD marking regulations apply
+   * A program to create and run the game of last biscuit.
+   * Written by Rowan Dash (2106866).
+   * SpLD marking regulations apply.
    */
   public static void main(final String[] args) {
     final int BARREL_1_INITIAL = 6;
     final int BARREL_2_INITIAL = 8;
     int barrel1 = BARREL_1_INITIAL;
     int barrel2 = BARREL_2_INITIAL;
-    int turn = 1;
+    int player = 1;
     String barrel = "";
     int numberTaken = 0;
     boolean legal = false;
@@ -28,14 +29,14 @@ public class LastBiscuitLevelThree {
       System.out.println("Biscuits Left - Barrel 2: "
           + barrel2);
       System.out.println("Player Turn: "
-          + turn);
+          + player);
 
       // Number legality checking loop
       while (!legal) {
         // Choose a barrel
         System.out.print("Choose a barrel: barrel1 (one), barrel2 (two), "
             + "or both (both),"
-            + " or skip turn (skip)? ");
+            + " or skip player (skip)? ");
         barrel = in.next();
         barrel.toLowerCase();
 
@@ -45,7 +46,7 @@ public class LastBiscuitLevelThree {
             && !barrel.equals("both")) {
           System.out.print("Choose a barrel: barrel1 (one), barrel2 (two), "
               + "or both (both), "
-              + "or skip turn (skip)? ");
+              + "or skip player (skip)? ");
           barrel = in.next();
           barrel.toLowerCase();
         }
@@ -116,15 +117,15 @@ public class LastBiscuitLevelThree {
         System.out.println("Biscuits Left - Barrel 2: "
             + barrel2);
         System.out.println("Winner is player "
-            + turn);
+            + player);
       }
 
       // Swap active player
-      if (turn
+      if (player
           == 1) {
-        turn = 2;
+        player = 2;
       } else {
-        turn = 1;
+        player = 1;
       }
       // Reset the taken number of biscuits and the chosen barrel
       //re-enable the legality check loop
@@ -132,5 +133,5 @@ public class LastBiscuitLevelThree {
       barrel = "";
       legal = false;
     }
-  }
+  } // Main game loop - end
 }
