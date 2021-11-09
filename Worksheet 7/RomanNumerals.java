@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class RomanNumerals {
 
-    /* Convert a string to it's roman numeral value and return it */
+    /* Convert a character to it's roman numeral value and return it */
 
     public static int romanNumeralToInteger(char numeral) {
         int integer = 0;
@@ -37,7 +37,7 @@ public class RomanNumerals {
 
     /*
      * Convert a string of characters into their total values as roman numerals and
-     * return it
+     * return it by calling romanNumeralToInteger() with each character.
      */
     public static int romanNumeralCalc(final String numeralSequence) {
         int total = 0;
