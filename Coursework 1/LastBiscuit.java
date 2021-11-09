@@ -10,6 +10,13 @@ public class LastBiscuit {
   public static void main(final String[] args) {
     final int BARREL_1_INITIAL = 6;
     final int BARREL_2_INITIAL = 8;
+    final String BARREL_INPUT_STR = "Choose a barrel: "
+        + "barrel1 (one), barrel2 (two), "
+        + "or both (both),"
+        + " or skip turn (skip)? ";
+
+    final String ILLIGAL_STR = "Sorry, that's not a legal number of "
+        + "biscuits for that/those barrel(s)\n";
     int barrel1 = BARREL_1_INITIAL;
     int barrel2 = BARREL_2_INITIAL;
     int player = 1;
@@ -34,9 +41,7 @@ public class LastBiscuit {
       // Number legality checking loop
       while (!legal) {
         // Choose a barrel
-        System.out.print("Choose a barrel: barrel1 (one), barrel2 (two), "
-            + "or both (both),"
-            + " or skip turn (skip)? ");
+        System.out.print(BARREL_INPUT_STR);
         barrel = in.next();
         barrel.toLowerCase();
 
@@ -44,9 +49,7 @@ public class LastBiscuit {
         while (!barrel.equals("one")
             && !barrel.equals("two")
             && !barrel.equals("both")) {
-          System.out.print("Choose a barrel: barrel1 (one), barrel2 (two), "
-              + "or both (both), "
-              + "or skip turn (skip)? ");
+          System.out.print(BARREL_INPUT_STR);
           barrel = in.next();
           barrel.toLowerCase();
         }
@@ -63,8 +66,7 @@ public class LastBiscuit {
         // Check if the number input is negative
         if (numberTaken
             <= 0) {
-          System.out.print("Sorry, that's not a legal number of "
-              + "biscuits for that/those barrel(s)\n");
+          System.out.print(ILLIGAL_STR);
           barrel = "";
         }
         // Check if there are enough biscuits in the barrel/s
@@ -73,24 +75,21 @@ public class LastBiscuit {
               > barrel1
               && numberTaken
                   > barrel2) {
-            System.out.print("Sorry, that's not a legal number of "
-                + "biscuits for that/those barrel(s)\n");
+            System.out.print(ILLIGAL_STR);
           } else {
             legal = true;
           }
         } else if (barrel.equals("one")) {
           if (numberTaken
               > barrel1) {
-            System.out.print("Sorry, that's not a legal number of "
-                + "biscuits for that/those barrel(s)\n");
+            System.out.print(ILLIGAL_STR);
           } else {
             legal = true;
           }
         } else if (barrel.equals("two")) {
           if (numberTaken
               > barrel2) {
-            System.out.print("Sorry, that's not a legal number"
-                + " of biscuits for that/those barrel(s)\n");
+            System.out.print(ILLIGAL_STR);
           } else {
             legal = true;
           }
