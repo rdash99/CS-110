@@ -4,16 +4,19 @@ public class Country {
     private String name;
     private int population;
     private int popsOutOfCities;
-    private ArrayList<> cities = new ArrayList<City>();
+    private ArrayList<City> cities = new ArrayList<City>();
+    private String outString;
+    private int popsInCities;
 
     public Country(String name, int population) {
         this.name = name;
         this.population = population;
+        this.outString = "";
     }
 
     public void addCity(String city, int population, int timeZone) {
         cities.add(new City(city, population, timeZone));
-        this.popsOutOfCities += population;
+        this.popsInCities += population;
     }
 
     public String getName() {
@@ -21,14 +24,20 @@ public class Country {
     }
 
     public String toString() {
-        System.out.println(this.name
-                + " total population: "
+        this.popsOutOfCities = this.population
+                - this.popsInCities;
+        String out = this.name
+                + ": total population: "
                 + this.population
                 + ", population outside listed cities: "
                 + this.popsOutOfCities
-                + ", with cities");
+                + ", with cities";
+        this.outString = out;
+        this.outString += "\n";
         for (City city : cities) {
-            System.out.println(city.toString());
+            this.outString += city.toString()
+                    + "\n";
         }
+        return this.outString;
     }
 }
