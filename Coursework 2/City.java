@@ -16,6 +16,24 @@ public class City {
         }
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public int timeDifference(City other) {
+        if (this.timeZone
+                == other.timeZone) {
+            return 0;
+        } else if (this.timeZone
+                > other.timeZone) {
+            return other.timeZone
+                    - this.timeZone;
+        } else {
+            return this.timeZone
+                    - other.timeZone;
+        }
+    }
+
     public String toString() {
         return this.name
                 + ": has population "
@@ -26,4 +44,5 @@ public class City {
                 + megacityOutput
                 + " a megacity";
     }
+
 }
