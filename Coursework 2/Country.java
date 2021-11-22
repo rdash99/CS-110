@@ -7,6 +7,7 @@ public class Country {
     private ArrayList<City> cities = new ArrayList<City>();
     private String outString;
     private int popsInCities;
+    private int cityIndex;
 
     public Country(String name, int population) {
         this.name = name;
@@ -39,5 +40,15 @@ public class Country {
                     + "\n";
         }
         return this.outString;
+    }
+
+    public City getCityByName(String cityName) {
+        for (City city : cities) {
+            if (city.getName().equals(cityName)) {
+                this.cityIndex = cities.indexOf(city);
+                return city;
+            }
+        }
+        return null;
     }
 }
