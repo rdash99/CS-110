@@ -12,18 +12,17 @@ public class City {
                 >= 10000000) {
             this.megacityOutput = "";
         } else {
-            this.megacityOutput = "NOT";
+            this.megacityOutput = " NOT";
         }
     }
 
     public String toString() {
-        return "City: "
-                + this.name
-                + " has population: "
+        return this.name
+                + ": has population "
                 + this.population
-                + " and is in time zone: "
+                + " and is in time zone "
                 + this.timeZone
-                + ". It IS "
+                + ". It IS"
                 + megacityOutput
                 + " a megacity";
     }
