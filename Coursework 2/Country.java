@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+/* A class for a country object, created by Rowan Dash (2106866).
+SpLD Marking considerations apply */
 public class Country {
     private String name;
     private int population;

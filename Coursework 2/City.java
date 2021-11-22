@@ -1,3 +1,5 @@
+/* A class for a city object, created by Rowan Dash (2106866).
+SpLD Marking considerations apply */
 public class City {
     private String name;
     private int population;
