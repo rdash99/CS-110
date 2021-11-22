@@ -1,0 +1,19 @@
+Argentina: total population: 45605800, population outside listed cities: 27595450, with cities
+Buenos Aires: has population 13588200 and is in time zone -3. It IS a megacity
+Cordoba: has population 1454650 and is in time zone -3. It IS NOT a megacity
+Rosario: has population 1236000 and is in time zone -3. It IS NOT a megacity
+Mendoza: has population 937200 and is in time zone -3. It IS NOT a megacity
+La Plata: has population 794300 and is in time zone -3. It IS NOT a megacity
+
+USA: total population: 331449300, population outside listed cities: 285624640, with cities
+New York: has population 20140470 and is in time zone -5. It IS a megacity
+Dallas: has population 7637390 and is in time zone -6. It IS NOT a megacity
+Phoenix: has population 4845800 and is in time zone -7. It IS NOT a megacity
+Los Angeles: has population 13201000 and is in time zone -8. It IS a megacity
+
+Russia: total population: 146171000, population outside listed cities: 132110250, with cities
+Moscow: has population 12506500 and is in time zone 3. It IS a megacity
+Vladivostok: has population 60500 and is in time zone 10. It IS NOT a megacity
+Yekaterinburg: has population 1350000 and is in time zone 5. It IS NOT a megacity
+Novosibirsk: has population 143750 and is in time zone 7. It IS NOT a megacity
+
