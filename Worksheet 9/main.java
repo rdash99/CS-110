@@ -11,6 +11,7 @@ public class main {
 
         Country anotherSouthAmericanRepublic = new Country("Columbia", new HighPoint("Pico Cristóbal Colón", 5730));
         southAmerica.addCountry(anotherSouthAmericanRepublic);
+        System.out.println("\n");
 
         southAmerica.printCountries();
         southAmerica.getHighestPoint();
