@@ -27,7 +27,7 @@ public class Continent {
                 + highestCountry.getHighestPointName()
                 + ". Which is "
                 + highest
-                + " meters.");
+                + " meters above sea level.");
     }
 
     public void printCountries() {
