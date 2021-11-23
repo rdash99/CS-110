@@ -21,7 +21,7 @@ public class Country {
 
     public String toString() {
         return this.name
-                + " has a high point at "
+                + " has it's highest point at "
                 + this.highPoints.getName()
                 + " at "
                 + this.highPoints.getHeight()
