@@ -6,6 +6,7 @@ public class City {
     private int timeZone;
     private String megacityOutput;
 
+    //constructor
     public City(String name, int population, int timeZone) {
         this.name = name;
         this.population = population;
@@ -18,10 +19,17 @@ public class City {
         }
     }
 
+    //return the population of the city
+    public int getPopulation() {
+        return this.population;
+    }
+
+    //return the name of the city
     public String getName() {
         return this.name;
     }
 
+    //calculate the time difference between this city and another
     public int timeDifference(City other) {
         if (this.timeZone
                 == other.timeZone) {
@@ -36,6 +44,7 @@ public class City {
         }
     }
 
+    //return a formatted string
     public String toString() {
         return this.name
                 + ": has population "
@@ -45,6 +54,21 @@ public class City {
                 + ". It IS"
                 + megacityOutput
                 + " a megacity";
+    }
+
+    //check if the data in this city is valid
+    public boolean isLegalData() {
+        if (this.population
+                <= 0
+                || this.timeZone
+                        <= -12
+                || this.timeZone
+                        >= 11
+                || this.name.equals(null)) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
 }
