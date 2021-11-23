@@ -10,8 +10,9 @@
         "Worksheet 1",
         "Tutorial",
         "Lecture Programs",
+        "Coursework 2",
         "Coursework 1",
-        "Coursework 2"
+        "Worksheet 9"
     ],
     "java.checkstyle.configuration": "/sun_checks.xml",
     "java.checkstyle.version": "8.18",
