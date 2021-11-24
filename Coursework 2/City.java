@@ -9,8 +9,14 @@ public class City {
     //constructor
     public City(String name, int population, int timeZone) {
         this.name = name;
-        this.population = population;
         this.timeZone = timeZone;
+        if (population
+                < 0) {
+            this.population = 0;
+        } else {
+            this.population = population;
+        }
+
         if (population
                 >= 10000000) {
             this.megacityOutput = "";
@@ -29,28 +35,46 @@ public class City {
         return this.name;
     }
 
+    public int getTimeZone() {
+        return this.timeZone;
+    }
+
     //calculate the time difference between this city and another
     public int timeDifference(City other) {
+        int calc = 0;
+
         if (this.timeZone
-                == other.timeZone) {
+                == other.getTimeZone()) {
             return 0;
         } else if (this.timeZone
-                > other.timeZone) {
-            return other.timeZone
+                > other.getTimeZone()) {
+            calc = other.getTimeZone()
                     - this.timeZone;
         } else {
-            return this.timeZone
-                    - other.timeZone;
+            calc = this.timeZone
+                    - other.getTimeZone();
+
         }
+
+        return calc;
     }
 
     //return a formatted string
     public String toString() {
+        int timeZoneOut;
+        if (this.timeZone
+                < -12
+                || this.timeZone
+                        > 11) {
+            timeZoneOut = 0;
+        } else {
+            timeZoneOut = this.timeZone;
+        }
         return this.name
                 + ": has population "
                 + this.population
                 + " and is in time zone "
-                + this.timeZone
+                + timeZoneOut
                 + ". It IS"
                 + megacityOutput
                 + " a megacity";
@@ -59,12 +83,12 @@ public class City {
     //check if the data in this city is valid
     public boolean isLegalData() {
         if (this.population
-                <= 0
+                == 0) {
+            return false;
+        } else if (this.timeZone
+                < -12
                 || this.timeZone
-                        <= -12
-                || this.timeZone
-                        >= 11
-                || this.name.equals(null)) {
+                        > 11) {
             return false;
         } else {
             return true;
