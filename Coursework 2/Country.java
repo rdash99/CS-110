@@ -26,21 +26,6 @@ public class Country {
 
     //add a city object to the country
     public void addCity(String city, int population, int timeZone) {
-        if (population
-                <= 0) {
-            population = 0;
-        }
-        if (timeZone
-                < -12
-                || timeZone
-                        > 11) {
-            timeZone = 0;
-        }
-        if (city.equals("")
-                || city.equals(" ")
-                || city.equals(null)) {
-            city = null;
-        }
         cities.add(new City(city, population, timeZone));
         this.popsInCities += population;
     }
@@ -54,14 +39,17 @@ public class Country {
     public String toString() {
         this.popsOutOfCities = this.population
                 - this.popsInCities;
+
         String out = this.name
                 + ": total population: "
                 + this.population
                 + ", population outside listed cities: "
                 + this.popsOutOfCities
                 + ", with cities";
+
         this.outString = out;
         this.outString += "\n";
+
         for (City city : cities) {
             this.outString += city.toString()
                     + "\n";
@@ -71,9 +59,9 @@ public class Country {
 
     //retrive a city by name
     public City getCityByName(String cityName) {
-        for (City city : cities) {
+        for (City city : this.cities) {
             if (city.getName().equals(cityName)) {
-                this.cityIndex = cities.indexOf(city);
+                this.cityIndex = this.cities.indexOf(city);
                 return city;
             }
         }
@@ -82,11 +70,11 @@ public class Country {
 
     //delete a city by name
     public boolean deleteCity(String cityName) {
-        for (City city : cities) {
+        for (City city : this.cities) {
             if (city.getName().equals(cityName)) {
                 this.cityIndex = cities.indexOf(city);
                 this.popsInCities -= city.getPopulation();
-                cities.remove(city);
+                this.cities.remove(city);
                 return true;
             }
         }
