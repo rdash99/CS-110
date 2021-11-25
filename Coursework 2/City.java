@@ -5,6 +5,9 @@ public class City {
     private int population;
     private int timeZone;
     private String megacityOutput;
+    private final int megaCityThreshold = 10000000;
+    private final int timeZoneLowerBound = -12;
+    private final int timeZoneUpperBound = 11;
 
     //constructor
     public City(String name, int population, int timeZone) {
@@ -21,7 +24,7 @@ public class City {
 
         //check if the city is a megacity
         if (population
-                >= 10000000) {
+                >= megaCityThreshold) {
             this.megacityOutput = "";
         } else {
             this.megacityOutput = " NOT";
@@ -67,9 +70,9 @@ public class City {
     public String toString() {
         int timeZoneOut;
         if (this.timeZone
-                < -12
+                < timeZoneLowerBound
                 || this.timeZone
-                        > 11) {
+                        > timeZoneUpperBound) {
             timeZoneOut = 0;
         } else {
             timeZoneOut = this.timeZone;
@@ -90,9 +93,9 @@ public class City {
                 == 0) {
             return false;
         } else if (this.timeZone
-                < -12
+                < timeZoneLowerBound
                 || this.timeZone
-                        > 11) {
+                        > timeZoneUpperBound) {
             return false;
         } else {
             return true;
