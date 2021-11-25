@@ -27,6 +27,10 @@ public class Country {
     //add a city object to the country
     public void addCity(String city, int population, int timeZone) {
         cities.add(new City(city, population, timeZone));
+        if (population
+                < 0) {
+            population = 0;
+        }
         this.popsInCities += population;
     }
 
@@ -56,7 +60,7 @@ public class Country {
                     + "\n";
         }
 
-        //return the output string
+        //return the formmated output string
         return this.outString;
     }
 
