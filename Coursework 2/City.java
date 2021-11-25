@@ -10,6 +10,8 @@ public class City {
     public City(String name, int population, int timeZone) {
         this.name = name;
         this.timeZone = timeZone;
+
+        //population is set to 0 if it is negative
         if (population
                 < 0) {
             this.population = 0;
@@ -17,6 +19,7 @@ public class City {
             this.population = population;
         }
 
+        //check if the city is a megacity
         if (population
                 >= 10000000) {
             this.megacityOutput = "";
@@ -35,11 +38,12 @@ public class City {
         return this.name;
     }
 
+    //return the time zone of the city
     public int getTimeZone() {
         return this.timeZone;
     }
 
-    //calculate the time difference between this city and another
+    //calculate the time difference between this city and another city
     public int timeDifference(City other) {
         int calc = 0;
 
@@ -59,7 +63,7 @@ public class City {
         return calc;
     }
 
-    //return a formatted string
+    //return a formatted string for the city output
     public String toString() {
         int timeZoneOut;
         if (this.timeZone

@@ -40,6 +40,7 @@ public class Country {
         this.popsOutOfCities = this.population
                 - this.popsInCities;
 
+        //format the output string
         String out = this.name
                 + ": total population: "
                 + this.population
@@ -54,6 +55,8 @@ public class Country {
             this.outString += city.toString()
                     + "\n";
         }
+
+        //return the output string
         return this.outString;
     }
 
