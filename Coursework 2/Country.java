@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
 /* A class for a country object, created by Rowan Dash (2106866).
-SpLD Marking considerations apply */
+SpLD Marking considerations apply
+Feedback response: the layout weirdness is a side effect of my formatter,
+I am currently trying to change it*/
 public class Country {
     private String name;
     private int population;
