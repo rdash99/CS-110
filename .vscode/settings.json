@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Worksheet 9",
         "Worksheet 8",
         "Worksheet 7",
         "Worksheet 6",
@@ -12,7 +13,7 @@
         "Lecture Programs",
         "Coursework 2",
         "Coursework 1",
-        "Worksheet 9"
+        "Exam 2022 Jan/Practice exam"
     ],
     "java.checkstyle.configuration": "/sun_checks.xml",
     "java.checkstyle.version": "8.18",
