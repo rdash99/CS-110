@@ -12,14 +12,16 @@
         "Tutorial",
         "Lecture Programs",
         "Exam 2022 Jan/Practice exam",
+        "Exam 2022 Jan/Exam/Problem solving prep/Time and date",
         "Exam 2022 Jan/Exam/Problem solving prep/String rewriting",
+        "Exam 2022 Jan/Exam/Problem solving prep/Lat and Long",
         "Exam 2022 Jan/Exam/Problem solving prep/Cyphers",
         "Exam 2022 Jan/Exam/Problem solving prep/CheckSum",
         "Coursework 2",
         "Coursework 1",
-        "Exam 2022 Jan/Exam/Problem solving prep/Lat and Long"
+        "Exam 2022 Jan/Exam/Problem solving prep/Arithmetic properties"
     ],
-    "java.checkstyle.configuration": "/sun_checks.xml",
+    "java.checkstyle.configuration": "${workspaceFolder}/Coursework 2/CWPack2/separatebrackets.xml",
     "java.checkstyle.version": "8.18",
     "java.format.settings.url": "eclipse.xml"
 }
