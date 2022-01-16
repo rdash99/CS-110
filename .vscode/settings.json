@@ -11,9 +11,10 @@
         "Worksheet 1",
         "Tutorial",
         "Lecture Programs",
+        "Exam 2022 Jan/Practice exam",
         "Coursework 2",
         "Coursework 1",
-        "Exam 2022 Jan/Practice exam"
+        "Exam 2022 Jan/Exam/Problem solving prep/Cyphers"
     ],
     "java.checkstyle.configuration": "/sun_checks.xml",
     "java.checkstyle.version": "8.18",
