@@ -17,9 +17,10 @@
         "Exam 2022 Jan/Exam/Problem solving prep/Lat and Long",
         "Exam 2022 Jan/Exam/Problem solving prep/Cyphers",
         "Exam 2022 Jan/Exam/Problem solving prep/CheckSum",
+        "Exam 2022 Jan/Exam/Problem solving prep/Arithmetic properties",
         "Coursework 2",
         "Coursework 1",
-        "Exam 2022 Jan/Exam/Problem solving prep/Arithmetic properties"
+        "Exam 2022 Jan/Exam/Running code questions"
     ],
     "java.checkstyle.configuration": "${workspaceFolder}/Coursework 2/CWPack2/separatebrackets.xml",
     "java.checkstyle.version": "8.18",
